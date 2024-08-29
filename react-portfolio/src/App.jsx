@@ -1,8 +1,10 @@
+
 import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import './styles.css';
-
+import rubyPhoto from './assets/rubyphoto.jpg';
+import leappe from './assets/leappe.png'; // Correctly import the image
 
 const App = () => {
     return (
@@ -11,19 +13,19 @@ const App = () => {
             <main id="content">
                 <section id="about-me">
                     <h2>About Me</h2>
-                    <img src="/src/assets/avatar.jpg" alt="Developer Photo" className="avatar" />
-                    <p>Short bio about the developer goes here.</p>
+                    {/* Use the imported rubyPhoto variable */}
+                    <img src={rubyPhoto} alt="Developer Photo" className="avatar" />
+                    <p>Hello! I am Ruby, a dedicated and enthusiastic tech enthusiast based in Austin, Texas. I began my tech journey in March 2024, driven by a passion for learning and a desire to advance my skills in this ever-evolving field. As a 33-year-old mother of three, I balance my time between family and pursuing my ambitions in technology. I am excited to continue growing my expertise and look forward to the opportunities ahead as I advance my career in tech.</p>
                 </section>
                 <section id="portfolio">
                     <h2>Portfolio</h2>
                     <div className="projects">
                         <Project
                             title="Project 1"
-                            imageUrl="/src/assets/project1.jpg"
-                            deployedUrl="https://deployed-link.com"
-                            repoUrl="https://github.com/repository-link"
+                            image={leappe}  // Use the imported leappe variable
+                            deployedUrl="https://soyylo.github.io/Le-Appetite/"
+                            repoUrl="https://github.com/SoyYLo/Le-Appetite.git"
                         />
-                        {/* Repeat <Project /> for other projects */}
                     </div>
                 </section>
                 <section id="contact">
@@ -40,11 +42,10 @@ const App = () => {
                 </section>
                 <section id="resume">
                     <h2>Resume</h2>
-                    <a href="/src/assets/resume.pdf" download>Download Resume</a>
+                    <a href="./assets/RubyHillResume1.docx" download>Download Resume</a>
                     <ul>
-                        <li>Proficiency 1</li>
-                        <li>Proficiency 2</li>
-                        {/* Add more proficiencies */}
+                        <li>Front-End Development: Skilled in building responsive and user-friendly web interfaces using HTML, CSS, and JavaScript, with experience in modern frameworks like React. Proficient in creating visually appealing and interactive applications that enhance the user experience.</li>
+                        <li>Version Control with Git: Proficient in using Git for version control and collaboration on projects. Experienced in managing codebases, branching, merging, and contributing to projects on GitHub, ensuring organized and efficient project workflows.</li>
                     </ul>
                 </section>
             </main>
