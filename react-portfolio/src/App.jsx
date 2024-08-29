@@ -5,6 +5,11 @@ import Footer from './components/Footer';
 import './styles.css';
 import rubyPhoto from './assets/rubyphoto.jpg';
 import leappe from './assets/leappe.png'; // Correctly import the image
+import notetaker from './assets/notetaker.png'; // 
+import ept from './assets/ept.png'; 
+import tb from './assets/tb.png'; 
+import mfb from './assets/mfb.png'; 
+import wd from './assets/wd.png';
 
 const App = () => {
     return (
@@ -25,6 +30,36 @@ const App = () => {
                             image={leappe}  // Use the imported leappe variable
                             deployedUrl="https://soyylo.github.io/Le-Appetite/"
                             repoUrl="https://github.com/SoyYLo/Le-Appetite.git"
+                        />
+                         <Project
+                            title="Note Taker App"
+                            image={notetaker}
+                            deployedUrl="https://slym187.github.io/Note-Taker/"
+                            repoUrl="https://github.com/slym187/Note-Taker.git"
+                        />
+                        <Project
+                            title="Employee Payroll Tracker"
+                            image={ept}
+                            deployedUrl="https://slym187.github.io/Employee-Payroll-Tracker/"
+                            repoUrl="https://github.com/slym187/Employee-Payroll-Tracker.git"
+                        />
+                        <Project
+                            title="Task Board"
+                            image={tb}
+                            deployedUrl="https://slym187.github.io/Task-Board/"
+                            repoUrl="https://github.com/slym187/Task-Board.git4"
+                        />
+                        <Project
+                            title="My First Blog Application"
+                            image={mfb}
+                            deployedUrl="https://slym187.github.io/My-First-Blog/"
+                            repoUrl="https://github.com/slym187/My-First-Blog.git"
+                        />
+                        <Project
+                            title="Weather Dashboard"
+                            image={wd}
+                            deployedUrl="https://slym187.github.io/Weather-Dashboard/"
+                            repoUrl="https://github.com/slym187/Weather-Dashboard.git"
                         />
                     </div>
                 </section>
