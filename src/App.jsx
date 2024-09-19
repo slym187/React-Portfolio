@@ -10,6 +10,7 @@ import ept from './assets/ept.png';
 import tb from './assets/tb.png'; 
 import mfb from './assets/mfb.png'; 
 import wd from './assets/wd.png';
+import gitfit from './assets/gitfit.png';
 
 const App = () => {
     return (
@@ -60,6 +61,12 @@ const App = () => {
                             image={wd}
                             deployedUrl="https://slym187.github.io/Weather-Dashboard/"
                             repoUrl="https://github.com/slym187/Weather-Dashboard.git"
+                        />
+                         <Project
+                            title="Git-Fit"
+                            image={gitfit}
+                            deployedUrl="https://git-fit-2.onrender.com/"
+                            repoUrl="https://github.com/cococnde/git-fit.git"
                         />
                     </div>
                 </section>
