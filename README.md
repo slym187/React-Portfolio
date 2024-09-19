@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
 # React-Portfolio
 ![Screenshot 2024-08-28 214552](https://github.com/user-attachments/assets/25c3e146-98c2-4dc8-96c0-75df9a9185f2)
 
@@ -29,7 +20,7 @@ chatgpt
 Xpert Learning Assitant
 
 # Link To Deployed Page
-
+https://main--react-portfolio187.netlify.app/
 # License
 Please refer to the LICENSE in the repo.
->>>>>>> bc311b4c0461a3f0f226160d0ace98e4d5131019
+
